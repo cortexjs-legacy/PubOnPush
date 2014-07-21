@@ -1,0 +1,25 @@
+{
+  "name": "PubOnPush",
+  "version": "0.1.0",
+  "description": "github webhooks to publish package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cortexjs/PubOnPush.git"
+  },
+  "keywords": [
+    "hook"
+  ],
+  "author": "ltebean",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cortexjs/PubOnPush/issues"
+  },
+  "homepage": "https://github.com/cortexjs/PubOnPush",
+  "dependencies": {
+    "express": "~3.5.0"
+  }
+}
