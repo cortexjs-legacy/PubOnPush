@@ -18,7 +18,7 @@ app.post('/payload', function(req, res, next) {
     return res.send(200);
   }
   publish({
-    repo: payload.repositry.full_name,
+    repo: payload.repository.full_name,
     tag: payload.ref
   }, function(err) {
     if (err) {
